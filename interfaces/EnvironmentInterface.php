@@ -1,4 +1,4 @@
 <?php 
 interface EnvironmentInterface{
-    public function describe();
+    public function explore();
 }

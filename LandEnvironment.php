@@ -1,7 +1,7 @@
 <?php 
-require_once 'interfaces/EnvironmentInterface.php';
+require_once 'interfaces/TerrainInterface.php';
 
-class LandEnvironment implements EnvironmentInterface{
+class LandEnvironment implements TerrainInterface{
     public function describe()
     {
         return "Welcome to the land! You puny human";
